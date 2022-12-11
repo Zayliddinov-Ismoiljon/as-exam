@@ -345,6 +345,10 @@ header{
   box-sizing: inherit;
 }
 
+.submit-app{
+  display: none;
+}
+
 #first-btn{
   display: none;
 }
@@ -591,6 +595,17 @@ header{
   .penny{
     width: 98%;
     padding: 48px 0px;
+  }
+
+  .submit-app{
+    display: block !important;
+    text-decoration: none;
+    background-color: #00ab6a;
+    padding: 8px 16px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
   }
 
   .faq{
