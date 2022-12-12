@@ -76,7 +76,7 @@ header{
 }
 
 .nav{
-  width: 55%;
+  width: 60%;
 }
 
 .nav__list{
@@ -146,6 +146,7 @@ header{
   margin-bottom: 1rem;
   font-weight: 700;
   color: #080c16;
+  margin-top: 0;
 }
 
 .pulse__text{
@@ -345,6 +346,13 @@ header{
   box-sizing: inherit;
 }
 
+.penny__img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .submit-app{
   display: none;
 }
@@ -416,6 +424,32 @@ header{
 
 /* FAQ SECTION END */
 
+
+/* NEWS SECTION  START */
+
+.news__list{
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.news__item{
+  width: 22%;
+  text-align: start;
+}
+
+.news__item > img{
+  width: 100%;
+  object-fit: cover;
+  height: 220px;
+
+}
+
+/* NEWS SECTION END */
 
 /* FOOTER START */
 
@@ -530,6 +564,17 @@ header{
     text-align: start;
   }
 
+  .news__list{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news__item{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
   .pulse__title{
     margin-top: 0;
     margin-left: 24px;
@@ -633,8 +678,8 @@ header{
   }
 
   .footer__current img{
-    width: 160px;
-    height: 65px;
+    width: 120px;
+    height: 100px;
     margin: 0 auto;
     display: block;
     margin-bottom: 16px;
